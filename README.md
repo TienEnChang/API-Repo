@@ -1,4 +1,4 @@
-# Guide
+# Manual
 
 Preparation
 ```
@@ -25,6 +25,9 @@ sudo groupadd docker
 sudo gpasswd -a $USER docker
 sudo service docker restart
 ```
+Close & Restart SSH
+```
+```
 Git Clone
 ```
 git clone https://github.com/TienEnChang/API-Repo.git
@@ -40,5 +43,5 @@ docker run -it -p 1337:1337 -v `pwd`:/srv/app strapi/strapi
 ```
 
 \
-[![strapi](https://i.imgur.com/fP5frDe.png)](http://34.82.135.45:1337/admin/)
+[![strapi](https://i.imgur.com/fP5frDe.png)](http://34.105.45.134/:1337/admin/)
 [![gcloud](https://i.imgur.com/xW6xKYK.png)](https://console.cloud.google.com/compute/instances?hl=zh-TW&project=workspace-328311)
