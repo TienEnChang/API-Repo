@@ -1,6 +1,6 @@
 # Manual
 
-Preparation
+Prepare
 ```
 sudo apt update
 sudo apt upgrade
