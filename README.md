@@ -5,9 +5,9 @@ Preparation
 sudo apt update
 sudo apt upgrade
 ```
-Install Screen
+Install Screen & Git
 ```
-sudo apt install screen
+sudo apt install screen git
 ```
 Install Docker
 ```
@@ -20,6 +20,19 @@ echo \
 sudo apt update
 sudo apt install docker-ce docker-ce-cli containerd.io
 sudo docker run hello-world
+```
+Git Clone
+```
+git clone https://github.com/TienEnChang/API-Repo.git
+```
+Docker Pull
+```
+sudo docker pull strapi/strapi
+```
+Setup
+```
+cd API-Repo
+docker run -it -p 1337:1337 -v `pwd`:/srv/app strapi/strapi
 ```
 
 \
