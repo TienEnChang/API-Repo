@@ -20,6 +20,10 @@ echo \
 sudo apt update
 sudo apt install docker-ce docker-ce-cli containerd.io
 sudo docker run hello-world
+
+sudo groupadd docker
+sudo gpasswd -a $USER docker
+sudo service docker restart
 ```
 Git Clone
 ```
