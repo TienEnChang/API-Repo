@@ -31,7 +31,7 @@ git clone https://github.com/TienEnChang/API-Repo.git
 ```
 Docker Pull
 ```
-sudo docker pull strapi/strapi
+docker pull strapi/strapi
 ```
 Setup
 ```
