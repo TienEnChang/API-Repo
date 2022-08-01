@@ -43,5 +43,5 @@ docker run -it -p 1337:1337 -v `pwd`:/srv/app strapi/strapi
 ```
 
 \
-[![strapi](https://i.imgur.com/fP5frDe.png)](http://34.105.45.134/:1337/admin/)
+[![strapi](https://i.imgur.com/fP5frDe.png)](http://34.105.45.134:1337/admin/)
 [![gcloud](https://i.imgur.com/xW6xKYK.png)](https://console.cloud.google.com/compute/instances?hl=zh-TW&project=workspace-328311)
