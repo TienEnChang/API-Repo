@@ -5,11 +5,11 @@ Prepare
 sudo apt update
 sudo apt upgrade
 ```
-Install Screen & Git
+Install: Screen & Git
 ```
 sudo apt install screen git
 ```
-Install Docker
+Install: Docker
 ```
 sudo apt install ca-certificates curl gnupg lsb-release
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
@@ -28,15 +28,15 @@ sudo service docker restart
 Close & Restart SSH
 ```
 ```
-Git Clone
+Git: Clone
 ```
 git clone https://github.com/TienEnChang/API-Repo.git
 ```
-Docker Pull
+Docker: Pull
 ```
 docker pull strapi/strapi
 ```
-Setup
+Docker: Mount Volume + Port Forwarding -> Run
 ```
 cd API-Repo
 docker run -it -p 1337:1337 -v `pwd`:/srv/app strapi/strapi
