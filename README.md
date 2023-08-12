@@ -28,18 +28,18 @@ sudo service docker restart
 Close & Restart SSH
 ```
 ```
-Git:  repo_address
+Git: repo_address
 ```
 git clone https://github.com/TienEnChang/API-Repo.git
 ```
-Docker:  image_name
+Docker: image_name
 ```
 docker pull strapi/strapi
 ```
-Docker:  image_name + port_forwarding + volume_to_mount
+Docker: port_num(src:tar) + mount_path(src:tar) + image_name
 ```
 cd API-Repo
-docker run -it strapi/strapi -p 1337:1337 -v `pwd`:/srv/app 
+docker run -it -p 1337:1337 -v $(pwd):/srv/app strapi/strapi
 ```
 
 \
